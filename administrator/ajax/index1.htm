@@ -1,0 +1,26 @@
+<html>
+<head>
+<script src="selectcustomer_xml.js"></script>
+</head>
+<body>
+
+<form  name="myform" action=""> 
+Select a Customer:
+<select name="customers" onChange="showCustomer(this.value)">
+<option value="21">Alfreds Futterkiste</option>
+<option value="22 ">North/South</option>
+<option value="23">Wolski Zajazd</option>
+</select>
+<br>
+<textarea name="time" cols="45" rows="5"></textarea>
+</form>
+<div id="txtHint"><b>Customer info will be listed here.</b></div>
+<b>
+<span id="companyname"></span></b><br />
+<span id="contactname"></span><br />
+<span id="address"></span>
+<span id="city"></span><br/>
+<span id="country"></span>
+
+</body>
+</html>

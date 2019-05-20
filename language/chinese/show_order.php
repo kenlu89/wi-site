@@ -1,0 +1,52 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<?php 
+define("PLACE_ORDER", '支付订单');
+define("CHECK_OUT", '支付平台');
+define("DESCRIPTION", '描述');
+define("UNIT_PRICE", '单价');
+define("SUB_TOTAL", '小计');
+define("ACTION", '动作');
+define("REMOVE", '删除');
+define("TOTAL", '总金额：');
+define("CANCEL", '取消');
+define("SHIPPING_METHOD", '邮寄方式：');
+define("NEXT", '继续');
+define("QTY", '数量');
+define("ORDER", '下订单');
+define("WARNING", '您确定要删除此产品吗？');
+define("CREDIT_CARD_INFO", '信用卡资料');
+define("CARD_NUM", '卡号');
+define("YEAR", '年：');
+define("EXPIRATION", '有效期');
+define("MONTH", '月');
+define("LASTNAME", '姓氏');
+define("FIRSTNAME", '名字');
+define("STREET", '街道？');
+define("ZIPCODE", '邮政编码');
+define("LAST_NAME", '姓氏：');
+define("FIRST_NAME", '名字：');
+define("COMPANY_INFO", '公司：');
+define("ADDRESS", '地址：');
+define("CITY", '城市：');
+define("STATE", '州：');
+define("ZIP_CODE", '邮政编码：');
+define("CARD_HOLDER", '信用卡拥有人：');
+define("CVS", 'CVVS: ');
+define("BILLING_INFO", '发票地址');
+define("SHIPPING_INFO", '邮寄地址');
+define("ERROR_MSG", '请输入正确的信用卡资料。');
+define("GENERATE_FAILURE", '抱歉！ 卡号生成失败。 我们会尽快把卡号发给你。');
+define("CREDIT_DECLINED", '信用卡被拒， 请输入正确的信用卡资料。');
+define("SAME_INFO", '储存资料');
+define("COUPON", '优惠卷：');
+define("COMMENT", '建议/批注：');
+define("SPECIAL_QUEST", '如果你对你的订单有特别的要求， 请写在上面。');
+define("ORDER_NUM", '订单编号：');
+define("ORDER_DONE", '您的订单已成功收到！');
+define("ORDER_DONE_MSG", '感谢你为您最'.$domain.'订单。您的订单将在24小时内处理。：');
+define("PURCHASE_DATE", '订单时间：');
+
+define("PAYMENT_METHOD", '支付方式：');
+define("DESCRIPTION", '描述');
+define("PURCHASE_DATE", '订单时间：');
+?> 

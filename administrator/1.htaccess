@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.boycewong.com
+RewriteRule (.*) http://boycewong.com/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+ErrorDocument 404 /index.php
+ErrorDocument 301 /index.php	
+ErrorDocument 200 /index.php
+ErrorDocument 302 /index.php

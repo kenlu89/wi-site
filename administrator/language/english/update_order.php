@@ -1,0 +1,36 @@
+<?php 
+define("TITLE", "Sky Blue Studio :: Management");
+define("INVOICE", 'Order #: ');
+define("PURCHASE_DATE", 'Purchased Date： ');
+define("BILLING_INFO", 'Billing Information');
+define("SHIPPING_INFO", 'Shipping Information');
+define("MODEL", 'Item #');
+define("DESCRIPTION", 'Description');
+define("UNIT_PRICE", 'Unit Price');
+define("QTY", 'Qty');
+define("PRICE", 'Price');
+define("PAYMENT_METHOD", 'Payment Method： ');	
+define("SUB_TOTAL", 'Sub Total: ');
+define("SHIPPING_METHOD", 'Shipping Method： ');
+define("SHIPPING_HANDLING", 'Shipping &Handling fee： ');
+define("TOTAL", 'Total: ');
+define("TAX", 'Tax: ');
+define("UPDATE", 'update');
+define("ORDER_STATUS", 'Order status');
+define("SUBJECT", 'Subject');
+define("PENDING", 'Pending');
+define("PROCESSING", 'Processing ');
+define("DELIVERED", 'Delivered');
+define("COMMENT", 'Comment:');
+define("UPDATED_DONE", 'The Order has been updated!');
+define("SHIPPING_ADDRESS", 'Shipping Address:');
+define("BILLING_ADDRESS", 'Billing Address:');
+define("TOTAL", 'Total Amount: $');
+define("SHIPPING_AMOUNT", 'Shipping Amount: $');
+define("SUB_TOTAL", 'Sub_total: $');
+define("SHIPPING_METHOD", 'Shipping Method: ');
+define("THANKYOU", 'Thank you for shopping on');
+define("DEAR", 'Dear');
+define("AMOUNT", 'Amount: ');
+define("SUBJECT_MSG","Order confirmation from ".$_SERVER['SERVER_NAME']);
+?>
